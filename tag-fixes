@@ -1,0 +1,20 @@
+CReate ACCOUNT https://tagmanager.google.com
+GO to Admin ffor install google tag manager
+
+
+BALISE
+NEW BALISE
+CUSTOM HTML
+
+<script>document.querySelector('head').appendChild( Object.assign( document.createElement('meta'),{name:'robots',content:'noindex'} ) )
+</script>
+
+Select NEW TRIGGER FOR FIRE This +
+
+Then you need to create a trigger for the tag. 
+Click “Choose a trigger to make this tag fire..”
+Then the “+” sign for new trigger.
+Then “Choose a trigger type to begin setup…”
+After that, Window Loaded and “Some Window Loaded Events”.
+Then Page Path contains /tag/
+Don’t forget to name the trigger (I used tag pages)
